@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.poster-grid {
+  max-width: 610px;
+  min-height: 810px;
+
+  display: grid;
+  align-items: end;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px 0;
+  overflow: hidden;
+
+  background-color: #dfe2d7;
+}
+
+h2 {
+  margin: 0;
+  max-height: 225px;
+  
+  position: relative;
+  top: -100px;
+  left: -23px;
+  
+  font-size: 350px;
+}
+
+h2.color {
+  color: red;
+}
+
+h2.position {
+  grid-column: span 3;
+  top: -80px;
+}
+
+p {
+  margin: 0;
+}
+
+.wrapper-text {
+  padding-bottom: 20px;
+}
+
+.box-text {
+  padding-top: 40px;
+}
